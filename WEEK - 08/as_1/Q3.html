@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Week - 08</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="grid-container01">
+        <div class="item1">Assignment-8 | Program - 03</div>
+      </div>
+
+      <div class="btn"> 
+        <div>
+          <a href="Questions.html" class="btn__home"><img src="../../img/home_circle_icon_137496.png" alt=""></a> 
+          </div>
+        <div>
+           <a href="index.html" target="_blank" class="btn__git"><img src="../../img/github-153-675523.png" alt=""></a> 
+      </div>
+    </div>
+
+      <div class="grid-container04">
+        <div class="item1">
+          <h2>Program - 03</h2>
+          <h3>Write a program that inputs marks of three subjects.if the average of marks is more than 80,it displays message "you are above standard, Admission Granted!".</h3>
+        </div>
+      </div>
+
+      <script>
+        var subject1 = +prompt("Enter the 1st Subject Marks");
+        var subject2 = +prompt("Enter the 2nd Subject Marks");
+        var subject3 = +prompt("Enter the 3rd Subject Marks");
+
+        var total = subject1 + subject2 + subject3;
+
+        var percentage = 100 * total / 300;
+    
+        if(percentage >= 80) {
+          alert("You are above standard, Admition Granted!");
+        }
+        else{
+          alert("Sorry, You are not Eligible for Admition");
+        }
+
+    </script>
+</body>
+</html>
